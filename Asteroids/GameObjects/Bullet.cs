@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Asteroids.GameProcess;
+using System;
 using System.Drawing;
 
 namespace Asteroids.GameObjects
