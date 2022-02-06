@@ -52,6 +52,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameObjects\Asteroid.cs" />
+    <Compile Include="GameObjects\BaseObject.cs" />
+    <Compile Include="GameObjects\Bullet.cs" />
+    <Compile Include="GameObjects\FirstAidKit.cs" />
+    <Compile Include="GameObjects\Interfaces\ICollision.cs" />
+    <Compile Include="GameObjects\Ship.cs" />
+    <Compile Include="GameObjects\Star.cs" />
     <Compile Include="Menu\BaseText.cs" />
     <Compile Include="Menu\MainMenu.cs" />
     <Compile Include="Menu\Name.cs" />
@@ -87,9 +94,6 @@
     <Content Include="Images\asteroid.png" />
     <Content Include="Images\background.jpg" />
     <Content Include="Images\bullet.png" />
-    <Content Include="Images\button_exit_background.jpg" />
-    <Content Include="Images\button_play_background.jpg" />
-    <Content Include="Images\button_record_background.jpg" />
     <Content Include="Images\first_aid_kit.jpg" />
     <Content Include="Images\health.png" />
     <Content Include="Images\ship.png" />
