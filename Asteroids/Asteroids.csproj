@@ -83,5 +83,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\asteroid.png" />
+    <Content Include="Images\background.jpg" />
+    <Content Include="Images\bullet.png" />
+    <Content Include="Images\button_exit_background.jpg" />
+    <Content Include="Images\button_play_background.jpg" />
+    <Content Include="Images\button_record_background.jpg" />
+    <Content Include="Images\first_aid_kit.jpg" />
+    <Content Include="Images\health.png" />
+    <Content Include="Images\ship.png" />
+    <Content Include="Images\star.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
