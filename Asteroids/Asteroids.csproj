@@ -60,6 +60,7 @@
     <Compile Include="GameObjects\Interfaces\ICollision.cs" />
     <Compile Include="GameObjects\Ship.cs" />
     <Compile Include="GameObjects\Star.cs" />
+    <Compile Include="GameProcess\Game.cs" />
     <Compile Include="Menu\BaseText.cs" />
     <Compile Include="Menu\MainMenu.cs" />
     <Compile Include="Menu\Name.cs" />
